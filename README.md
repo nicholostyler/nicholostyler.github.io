@@ -5,9 +5,11 @@ You can use the [editor on GitHub](https://github.com/nicholostyler/nicholostyle
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Code Review 
+description: Initial code review before enhancements. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+[![Code Review](https://res.cloudinary.com/marcomontalbano/image/upload/v1622760522/video_to_markdown/images/vimeo--558766356-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://vimeo.com/558766356 "Code Review")
+
 
 ```markdown
 Syntax highlighted code block
