@@ -1,0 +1,17 @@
+C:\Users\nicho\source\repos\Grand_Strand_Systems\bin\Debug\netcoreapp3.1\Grand_Strand_Systems.exe
+C:\Users\nicho\source\repos\Grand_Strand_Systems\bin\Debug\netcoreapp3.1\Grand_Strand_Systems.deps.json
+C:\Users\nicho\source\repos\Grand_Strand_Systems\bin\Debug\netcoreapp3.1\Grand_Strand_Systems.runtimeconfig.json
+C:\Users\nicho\source\repos\Grand_Strand_Systems\bin\Debug\netcoreapp3.1\Grand_Strand_Systems.runtimeconfig.dev.json
+C:\Users\nicho\source\repos\Grand_Strand_Systems\bin\Debug\netcoreapp3.1\Grand_Strand_Systems.dll
+C:\Users\nicho\source\repos\Grand_Strand_Systems\bin\Debug\netcoreapp3.1\Grand_Strand_Systems.pdb
+C:\Users\nicho\source\repos\Grand_Strand_Systems\obj\Debug\netcoreapp3.1\Grand_Strand_Systems.AssemblyInfoInputs.cache
+C:\Users\nicho\source\repos\Grand_Strand_Systems\obj\Debug\netcoreapp3.1\Grand_Strand_Systems.AssemblyInfo.cs
+C:\Users\nicho\source\repos\Grand_Strand_Systems\obj\Debug\netcoreapp3.1\Grand_Strand_Systems.csproj.CoreCompileInputs.cache
+C:\Users\nicho\source\repos\Grand_Strand_Systems\obj\Debug\netcoreapp3.1\Grand_Strand_Systems.dll
+C:\Users\nicho\source\repos\Grand_Strand_Systems\obj\Debug\netcoreapp3.1\Grand_Strand_Systems.pdb
+C:\Users\nicho\source\repos\Grand_Strand_Systems\obj\Debug\netcoreapp3.1\Grand_Strand_Systems.genruntimeconfig.cache
+C:\Users\nicho\source\repos\Grand_Strand_Systems\bin\Debug\netcoreapp3.1\xunit.abstractions.dll
+C:\Users\nicho\source\repos\Grand_Strand_Systems\bin\Debug\netcoreapp3.1\xunit.assert.dll
+C:\Users\nicho\source\repos\Grand_Strand_Systems\bin\Debug\netcoreapp3.1\xunit.core.dll
+C:\Users\nicho\source\repos\Grand_Strand_Systems\obj\Debug\netcoreapp3.1\Grand_Strand_Systems.csproj.CopyComplete
+C:\Users\nicho\source\repos\Grand_Strand_Systems\obj\Debug\netcoreapp3.1\Grand_Strand_Systems.csprojAssemblyReference.cache
