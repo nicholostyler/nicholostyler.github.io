@@ -1,8 +1,8 @@
-## Grand Strand Systems
+# Grand Strand Systems
 by **Nicholos Tyler**
 
 ### Code Review 
-description: Initial code review before enhancements. 
+description: Initial code review before enhancements, showcasing original features of program from CS-320.
 
 [![Code Review](https://res.cloudinary.com/marcomontalbano/image/upload/v1622760522/video_to_markdown/images/vimeo--558766356-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://vimeo.com/558766356 "Code Review")
 
