@@ -2,12 +2,14 @@
 by **Nicholos Tyler**
 
 ### Code Review 
-description: Initial code review before enhancements, showcasing original features of program from CS-320.
+**Initial code review before enhancements, showcasing original features of program from CS-320.**
 
 [![Code Review](https://res.cloudinary.com/marcomontalbano/image/upload/v1622760522/video_to_markdown/images/vimeo--558766356-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://vimeo.com/558766356 "Code Review")
 
 
 ### Software Design and Engineering
+**See the code on [Github](https://github.com/nicholostyler/nicholostyler.github.io/tree/main/Software%20Design)**
+
 The artifact is a program that has model and service classes for contacts, tasks and appointments. These service classes allow for performing CRUD operations to allow the user to manipulate their data. The artifact was mostly created to highlight security problems in code using Unit Tests. It was created for CS-320-T3228 and was created using Java as the programming language. 
 
 I included this artifact in my portfolio because it highlights a lot of the skills of writing secure code by using exceptions and unit testing. It showcased my proficiency with software design by breaking the code into maintainable chunks through encapsulation. Skills in reusability and maintainability of code was another highlight of the artifact due to the validation being broken into methods and used in the mutator and accessor methods instead of rewriting the code. 
@@ -19,6 +21,8 @@ I did meet the course objectives that I planned to meet with Module One. I plann
 The process of creating and enhancing the artifact was tough and I learned a lot. I learned about how C# handles their syntax and throwing exceptions. In the class that I created the artifact for originally never covered user input and output in the console terminal. Some hurdles that I faced were trying to do too much all at once, this created timeline issues where I had trouble finishing all of it in the week. 
 
 ### Algorithms and Data Structures
+**See the code on [Github](https://github.com/nicholostyler/nicholostyler.github.io/tree/main/Algorithms%20and%20Data%20Structure)**
+
 The artifact is a program that has model and service classes for contacts, tasks and appointments. These service classes allow for performing CRUD operations to allow the user to manipulate their data. The artifact was mostly created to highlight security problems in code using Unit Tests. It was created for CS-320-T3228 and was created using Java as the programming language. 
 
 I included this artifact in my portfolio because data structures are a focal point in how the tasks, appointments, and contacts are accessed. A specific component in the artifact that showcases skill of data structures is by using an ArrayList due to the smaller nature of the use cases. Another component in the original version of the artifact was the use of an algorithm to determine the date is legitimate by calculating a previous day and comparing to the current date. 
@@ -30,6 +34,8 @@ I did meet specific course objectives for this milestone with regards to securit
 The process of enhancing the artifact was interesting as I learned a lot about how .NET handles dates differently than Java. This took a lot of research and helped with crafting the algorithm needed to create the search. I also learned about the performance benefits of how C# uses foreach which can be faster than a traditional for loop using a variable, which was important as I needed a variable to count each item in the list. 
 
 ### Databases
+**See the code on [Github](https://github.com/nicholostyler/nicholostyler.github.io/tree/main/Database)**
+
 The artifact is a program that has model and service classes for contacts, tasks and appointments. These service classes allow for performing CRUD operations to allow the user to manipulate their data. The artifact was mostly created to highlight security problems in code using Unit Tests. It was created for CS-320-T3228 and was created using Java as the programming language. 
 
 I included this artifact because the structure of having tasks and contacts already stored in local data structures led to a perfect opportunity to use a database. Since there was not a database included in the original design of the artifact, there is not much to showcase my skills compared to the enhanced version. 
