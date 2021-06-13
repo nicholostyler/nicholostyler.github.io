@@ -8,6 +8,7 @@ by **Nicholos Tyler**
 
 
 ### Software Design and Engineering
+[go](https://github.com/nicholostyler/nicholostyler.github.io/tree/main/Software%20Design){:target="_blank" rel="noopener"}
 **See the code on [GitHub](https://github.com/nicholostyler/nicholostyler.github.io/tree/main/Software%20Design)**
 
 The artifact is a program that has model and service classes for contacts, tasks and appointments. These service classes allow for performing CRUD operations to allow the user to manipulate their data. The artifact was mostly created to highlight security problems in code using Unit Tests. It was created for CS-320-T3228 and was created using Java as the programming language. 
