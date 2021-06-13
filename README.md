@@ -8,7 +8,7 @@ by **Nicholos Tyler**
 
 
 ### Software Design and Engineering
-**See the code on [Github](https://github.com/nicholostyler/nicholostyler.github.io/tree/main/Software%20Design)**
+**See the code on [GitHub](https://github.com/nicholostyler/nicholostyler.github.io/tree/main/Software%20Design)**
 
 The artifact is a program that has model and service classes for contacts, tasks and appointments. These service classes allow for performing CRUD operations to allow the user to manipulate their data. The artifact was mostly created to highlight security problems in code using Unit Tests. It was created for CS-320-T3228 and was created using Java as the programming language. 
 
@@ -21,7 +21,7 @@ I did meet the course objectives that I planned to meet with Module One. I plann
 The process of creating and enhancing the artifact was tough and I learned a lot. I learned about how C# handles their syntax and throwing exceptions. In the class that I created the artifact for originally never covered user input and output in the console terminal. Some hurdles that I faced were trying to do too much all at once, this created timeline issues where I had trouble finishing all of it in the week. 
 
 ### Algorithms and Data Structures
-**See the code on [Github](https://github.com/nicholostyler/nicholostyler.github.io/tree/main/Algorithms%20and%20Data%20Structure)**
+**See the code on [GitHub](https://github.com/nicholostyler/nicholostyler.github.io/tree/main/Algorithms%20and%20Data%20Structure)**
 
 The artifact is a program that has model and service classes for contacts, tasks and appointments. These service classes allow for performing CRUD operations to allow the user to manipulate their data. The artifact was mostly created to highlight security problems in code using Unit Tests. It was created for CS-320-T3228 and was created using Java as the programming language. 
 
@@ -34,7 +34,7 @@ I did meet specific course objectives for this milestone with regards to securit
 The process of enhancing the artifact was interesting as I learned a lot about how .NET handles dates differently than Java. This took a lot of research and helped with crafting the algorithm needed to create the search. I also learned about the performance benefits of how C# uses foreach which can be faster than a traditional for loop using a variable, which was important as I needed a variable to count each item in the list. 
 
 ### Databases
-**See the code on [Github](https://github.com/nicholostyler/nicholostyler.github.io/tree/main/Database)**
+**See the code on [GitHub](https://github.com/nicholostyler/nicholostyler.github.io/tree/main/Database)**
 
 The artifact is a program that has model and service classes for contacts, tasks and appointments. These service classes allow for performing CRUD operations to allow the user to manipulate their data. The artifact was mostly created to highlight security problems in code using Unit Tests. It was created for CS-320-T3228 and was created using Java as the programming language. 
 
