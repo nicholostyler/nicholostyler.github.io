@@ -1,15 +1,23 @@
 # Grand Strand Systems
 by **Nicholos Tyler**
 
+### Self Assessment
+One of the first classes that helped shape my skills in data structures and algorithms is in CS-260. The projects in this course went through all the different basic types of data structures and algorithms. For instance, it goes through a project of parsing a CSV file by reading files and applying a token processing algorithm. CS-310 allowed me to showcase and learn skills on team collaboration by building a calculator app and learning about GitHub. Next, I learned skills of software engineering and database design with CS-340 where I developed skills with MongoDB and python to build and design a client that interacts with a server. Lastly, I learned the skills of communicating with stakeholders is also CS-310 as the final project was made to simulate a company’s actual plan for what they wanted in a program. 
+
 ### Code Review 
 **Initial code review before enhancements, showcasing original features of program from CS-320.**
 
 [![Code Review](https://res.cloudinary.com/marcomontalbano/image/upload/v1622760522/video_to_markdown/images/vimeo--558766356-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://vimeo.com/558766356 "Code Review")
 
+### Introduction To Artifacts
+The capstone is made up of just one artifact for all three categories. The original artifact comes from the class CS-320. The reason I chose the final project from this class is that it contains a carefully written Java application that demonstrated a skill for coding design by utilizing encapsulation and error checking. It also showcases a skill with unit testing that follows the business requirements closely and makes sure the code written is secure. Next, it showcases the skill in databases and data structures by utilizing lists and my own algorithm for determining a correct date. Lastly, the project set up the foundations for establishing a database. The classes referenced each other and utilized data structures which easily translated into database configurations.  
+
 
 ### Software Design and Engineering
 <a href="https://github.com/nicholostyler/nicholostyler.github.io/tree/main/Software%20Design" target="_blank">external link</a>
 **See the code on [GitHub](https://github.com/nicholostyler/nicholostyler.github.io/tree/main/Software%20Design)**
+
+[link text](https://github.com/nicholostyler/nicholostyler.github.io/tree/main/Software%20Design){:target="_blank"}
 
 The artifact is a program that has model and service classes for contacts, tasks and appointments. These service classes allow for performing CRUD operations to allow the user to manipulate their data. The artifact was mostly created to highlight security problems in code using Unit Tests. It was created for CS-320-T3228 and was created using Java as the programming language. 
 
