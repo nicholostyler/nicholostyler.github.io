@@ -8,7 +8,6 @@ One of the first classes that helped shape my skills in data structures and algo
 **Initial code review before enhancements, showcasing original features of program from CS-320.**
 **<a href="https://github.com/nicholostyler/CS-320AutomationClass" target="_blank">See the original code on GitHub</a>**
 
-
 [![Code Review](https://res.cloudinary.com/marcomontalbano/image/upload/v1622760522/video_to_markdown/images/vimeo--558766356-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://vimeo.com/558766356 "Code Review")
 
 ### Introduction To Artifacts
@@ -23,7 +22,43 @@ The artifact was improved dramatically by introducing new features such as user 
 
 I planned to merge the contacts to have their own tasks and appointments instead of being separate. I also managed to convert all the code into .NET and cross platform .NET Core. The other planned updates that I wanted to make for Module One made more sense to be included and worked on for the algorithms section as it involved developing a search algorithm. Instead, I created a whole new menu system to allow the user to delete, update, and create contacts, tasks, appointments. 
 
-The process of creating and enhancing the artifact was tough and I learned a lot. I learned about how C# handles their syntax and throwing exceptions. In CS-320, it did not cover user input and output in the console terminal. Some hurdles that I faced were trying to do too much all at once, this created timeline issues where I had trouble finishing all of it in the time alloted  . 
+The process of creating and enhancing the artifact was tough and I learned a lot. I learned about how C# handles their syntax and how it implements throwing exceptions. In CS-320, it did not cover user input and output in the console terminal. Some hurdles that I faced were trying to do too much all at once, this created timeline issues where I had trouble finishing all of it in the time alloted.
+
+*Example of an enhancement - showcasing the addition of a interactive menu for the user.*
+```
+string newFirstName = string.Empty;
+string newLastName = string.Empty;
+string newPhoneNumber = string.Empty;
+string newAddress = string.Empty;
+
+while (true) {
+    try {
+        // Educate the user on the size limits
+        Console.Write("New contact first name -- (10 character or less limit) -- ");
+        newFirstName = Console.ReadLine();
+
+        Console.Write("New contact last name -- (10 character or less limit) -- ");
+        newLastName = Console.ReadLine();
+
+        Console.Write("New contact phone number -- (10 character limit) -- ");
+        newPhoneNumber = Console.ReadLine();
+
+        Console.Write("New contact address -- (30 character or less limit) -- ");
+        newAddress = Console.ReadLine();
+
+        // If the size is too large, it will throw an error here
+        Contacts.Add(newFirstName, newLastName, newPhoneNumber, newAddress);
+
+        return;
+    }
+    // If the exceptions are caught, loop will continue.
+    catch (ArgumentNullException ex) {
+        Console.WriteLine("Value cannot be null, try again.");
+    } catch (ArgumentException ex) {
+        Console.WriteLine("Value is too long or not correct, try again");
+    }
+}
+```
 
 ### Algorithms and Data Structures
 **<a href="https://github.com/nicholostyler/nicholostyler.github.io/tree/main/Algorithms%20and%20Data%20Structure" target="_blank">See the code on GitHub</a>**
@@ -37,6 +72,7 @@ The artifact was improved firstly through adding a search feature to each view-m
 The process of enhancing the artifact was interesting as I learned a lot about how .NET handles dates differently than Java. This took a lot of research and helped with crafting the algorithm needed to create the search. I also learned about the performance benefits of how C# uses foreach which can be faster than a traditional for loop using a variable, which was important as I needed a variable to count each item in the list. 
 
 *An example of an enhancement made to verify the day for leap year and which month has more or less than 30 days.* 
+
 ```
 public int VerifyDay(int month, string day) {
     int verifiedDay = 0;
@@ -80,6 +116,7 @@ public int VerifyDay(int month, string day) {
 }
 ```
 
+
 ### Databases
 **<a href="https://github.com/nicholostyler/nicholostyler.github.io/tree/main/Database" target="_blank">See the code on GitHub</a>**
 
@@ -92,6 +129,7 @@ The artifact was improved firstly through the addition of a complete overhaul of
 The process of enhancing the artifact was the most difficult of the three categories. Since this project did not already have a database and was re-written in C#, I had to research how .NET Core is able to manipulate SQL. This took a lot of research with trial and error every step of the way. In the end I learned how EF Core has incredible performance and security that is used by people in the industry.
 
 *An example of writing to the database using EFCore, also showing example of how I properly implemented code security.* 
+
 ```
 try
   {
@@ -120,6 +158,3 @@ try
       Console.WriteLine("Argument passed is not valid, try again.");
    }
 ```
-
-
-
