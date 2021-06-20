@@ -22,7 +22,7 @@ The artifact was improved dramatically by introducing new features such as user 
 
 I planned to merge the contacts to have their own tasks and appointments instead of being separate. I also managed to convert all the code into .NET and cross platform .NET Core. The other planned updates that I wanted to make for Module One made more sense to be included and worked on for the algorithms section as it involved developing a search algorithm. Instead, I created a whole new menu system to allow the user to delete, update, and create contacts, tasks, appointments. 
 
-The process of creating and enhancing the artifact was tough and I learned a lot. I learned about how C# handles their syntax and how it implements throwing exceptions. In CS-320, it did not cover user input and output in the console terminal. Some hurdles that I faced were trying to do too much all at once, this created timeline issues where I had trouble finishing all of it in the time alloted.
+The process of creating and enhancing the artifact was tough and I learned a lot. I learned about how C# handles their syntax and how it implements throwing exceptions. In CS-320, it did not cover user input and output in the console terminal. Some hurdles that I faced were trying to do too much all at once, this created timeline issues where I had trouble finishing all of it in the time allotted.
 
 *Example of an enhancement - showcasing the addition of a interactive menu for the user.*
 ```
@@ -69,7 +69,7 @@ The original artifact is a program that has model and service classes for contac
 
 I included this artifact in my portfolio because data structures are a focal point in how the tasks, appointments, and contacts are accessed. A specific component in the artifact that showcases skill of data structures is by using an ArrayList. I used an ArrayList due to the fewer number of items used in the code. Another component in the original version of the artifact was the use of an algorithm to determine the date is legitimate by calculating a previous day and comparing to the current date. 
   
-The artifact was improved firstly through adding a search feature to each view-model class. This pairs with the console menu developed in the previous enhancement and allows for searching using built-in list search. Another example of search is I have added a menu to the main program that allows the user to search by the month or any appointment by day. This search algorithm was also added for the task class and contacts class where you can find each one by the user providing a string that is contained in the corresponding class lists. I also added an algorithm for checking if a task is completed and will hide or show it depending on a user choice in the menu, this is activated through a menu item. Lastly, as you can see in the code example below, I added a day and month verification algorithm that takes a integer month and string month and switch to determine if its a leap year or if its a valid day in the month. 
+The artifact was improved firstly through adding a search feature to each view-model class. This pairs with the console menu developed in the previous enhancement and allows for searching using built-in list search. Another example of search is I have added a menu to the main program that allows the user to search by the month or any appointment by day. This search algorithm was also added for the task class and contacts class where you can find each one by the user providing a string that is contained in the corresponding class lists. I also added an algorithm for checking if a task is completed and will hide or show it depending on a user choice in the menu, this is activated through a menu item. Lastly, as you can see in the code example below, I added a day and month verification algorithm that takes a integer month and string month and switch to determine if it's a leap year or if it's a valid day in the month. 
 
 The process of enhancing the artifact was interesting as I learned a lot about how .NET handles dates differently than Java. This took a lot of research and helped with crafting the algorithm needed to create the search. I also learned about the performance benefits of how C# uses foreach which can be faster than a traditional for loop using a variable, which was important as I needed a variable to count each item in the list. 
 
@@ -84,7 +84,7 @@ public int VerifyDay(int month, string day) {
     try {
         verifiedDay = Int32.Parse(day);
         switch (month) {
-            // if its Feb, account for leap year.
+            // if it's Feb, account for leap year.
         case 2:
             if (DateTime.IsLeapYear(year)) {
                 if (verifiedDay <= 29) return verifiedDay;
