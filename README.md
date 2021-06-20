@@ -60,6 +60,8 @@ while (true) {
 }
 ```
 
+
+
 ### Algorithms and Data Structures
 **<a href="https://github.com/nicholostyler/nicholostyler.github.io/tree/main/Algorithms%20and%20Data%20Structure" target="_blank">See the code on GitHub</a>**
 
@@ -67,7 +69,7 @@ The original artifact is a program that has model and service classes for contac
 
 I included this artifact in my portfolio because data structures are a focal point in how the tasks, appointments, and contacts are accessed. A specific component in the artifact that showcases skill of data structures is by using an ArrayList. I used an ArrayList due to the fewer number of items used in the code. Another component in the original version of the artifact was the use of an algorithm to determine the date is legitimate by calculating a previous day and comparing to the current date. 
   
-The artifact was improved firstly through adding a search feature to each view-model class. This pairs with the console menu developed in the previous enhancement and allows for searching using built-in list search. Another example of search is I have added a menu to the main program that allows the user to search by the month or any appointment by day. This search algorithm was also added for the task class and contacts class where you can find each one by the user providing a string that is contained in the corresponding class lists. Lastly, I added an algorithm for checking if a task is completed and will hide or show it depending on a user choice in the menu. 
+The artifact was improved firstly through adding a search feature to each view-model class. This pairs with the console menu developed in the previous enhancement and allows for searching using built-in list search. Another example of search is I have added a menu to the main program that allows the user to search by the month or any appointment by day. This search algorithm was also added for the task class and contacts class where you can find each one by the user providing a string that is contained in the corresponding class lists. I also added an algorithm for checking if a task is completed and will hide or show it depending on a user choice in the menu, this is activated through a menu item. Lastly, as you can see in the code example below, I added a day and month verification algorithm that takes a integer month and string month and switch to determine if its a leap year or if its a valid day in the month. 
 
 The process of enhancing the artifact was interesting as I learned a lot about how .NET handles dates differently than Java. This took a lot of research and helped with crafting the algorithm needed to create the search. I also learned about the performance benefits of how C# uses foreach which can be faster than a traditional for loop using a variable, which was important as I needed a variable to count each item in the list. 
 
@@ -117,6 +119,7 @@ public int VerifyDay(int month, string day) {
 ```
 
 
+
 ### Databases
 **<a href="https://github.com/nicholostyler/nicholostyler.github.io/tree/main/Database" target="_blank">See the code on GitHub</a>**
 
@@ -126,7 +129,7 @@ I included this artifact because the structure of having tasks and contacts alre
 
 The artifact was improved firstly through the addition of a complete overhaul of the way classes handled CRUD. This was done by keeping local data structures in place and manipulated the SQLite database in the background. EFCore is a layer above SQL that allows for simple interaction with classes. I added a migration to my ContactViewModel class that converts all the objects in that class to SQL objects. This allows for the user to continue using the application while it is saving in the background. For instance, when a user adds or updates a task, it will save in the background and can be used and manipulated the next time they open the app. 
 
-The process of enhancing the artifact was the most difficult of the three categories. Since this project did not already have a database and was re-written in C#, I had to research how .NET Core is able to manipulate SQL. This took a lot of research with trial and error every step of the way. In the end I learned how EF Core has incredible performance and security that is used by people in the industry.
+The process of enhancing the artifact was the most difficult of the three categories. Since this project did not already have a database and was re-written in C#, I had to research how .NET Core is able to manipulate SQL. This took a lot of research with trial and error every step of the way. In the end I learned how EF Core has incredible performance and security that is used by people in the industry. One thing that did not work is my encapsulated classes, I was not able to figure out how to get EFCore to work with my complex MVVM-style classes.
 
 *An example of writing to the database using EFCore, also showing example of how I properly implemented code security.* 
 
